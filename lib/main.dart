@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:clock_lenovo/clock.dart';
-import 'package:clock_lenovo/clock_text.dart';
+import 'package:Fluck/clock.dart';
+import 'package:Fluck/clock_text.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-
 
 void main() => runApp(new MyApp());
 
@@ -12,22 +10,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Flutter Clock',
+      title: 'Fluck',
       theme: new ThemeData(
         textTheme: GoogleFonts.montserratTextTheme(
           Theme.of(context).textTheme,
         ),
         primarySwatch: Colors.blue,
       ),
-
-      home: new AppClock(),
+      debugShowCheckedModeBanner: false,
+      home: new AppClock()
     );
   }
 }
 
-
-class AppClock extends StatelessWidget{
-
+class AppClock extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -36,7 +32,6 @@ class AppClock extends StatelessWidget{
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-
             new Clock(
               circleColor: Colors.lightGreen,
               showBellsAndLegs: false,

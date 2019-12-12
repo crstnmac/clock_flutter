@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:clock_lenovo/clock_dial_painter.dart';
-import 'package:clock_lenovo/clock_hands.dart';
-import 'package:clock_lenovo/clock_text.dart';
+import 'package:Fluck/clock_dial_painter.dart';
+import 'package:Fluck/clock_hands.dart';
+import 'package:Fluck/clock_text.dart';
 
 
 class ClockFace extends StatelessWidget{

@@ -1,7 +1,6 @@
 
-import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:clock_lenovo/clock_face.dart';
+import 'package:Fluck/clock_face.dart';
 
 class ClockBody extends StatelessWidget{
 

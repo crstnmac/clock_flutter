@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:clock_lenovo/clock_text.dart';
+import 'package:Fluck/clock_text.dart';
 
 class ClockDialPainter extends CustomPainter{
   final clockText;

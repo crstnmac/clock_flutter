@@ -1,7 +1,7 @@
 
-import 'package:clock_lenovo/minute_hand.dart';
-import 'package:clock_lenovo/hour_hand.dart';
-import 'package:clock_lenovo/seconds_hand.dart';
+import 'package:Fluck/minute_hand.dart';
+import 'package:Fluck/hour_hand.dart';
+import 'package:Fluck/seconds_hand.dart';
 import 'package:flutter/material.dart';
 
 

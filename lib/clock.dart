@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:clock_lenovo/clock_text.dart';
+import 'package:Fluck/clock_text.dart';
 import 'package:flutter/material.dart';
-import 'package:clock_lenovo/clock_face.dart';
+import 'package:Fluck/clock_face.dart';
 
 typedef TimeProducer = DateTime Function();
 
